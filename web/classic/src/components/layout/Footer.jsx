@@ -195,7 +195,7 @@ const FooterBar = () => {
             </Typography.Text>
           </div>
 
-          <div className='text-sm'>
+          {/* <div className='text-sm'>
             <span className='!text-semi-color-text-1'>
               {t('设计与开发由')}{' '}
             </span>
@@ -207,7 +207,8 @@ const FooterBar = () => {
             >
               New API
             </a>
-          </div>
+          </div>  */}
+          <div class="flex flex-wrap items-center gap-4 text-sm"><a href="/privacy-policy" class="!text-semi-color-text-1 hover:!text-semi-color-primary transition-colors">隐私政策</a><span class="!text-semi-color-text-2">/</span><a href="/user-agreement" class="!text-semi-color-text-1 hover:!text-semi-color-primary transition-colors">服务条款</a><span class="!text-semi-color-text-2">/</span><a href="mailto:ai@zhimao.ai" class="!text-semi-color-text-1 hover:!text-semi-color-primary transition-colors">联系我们</a></div>
         </div>
       </footer>
     ),
@@ -227,7 +228,7 @@ const FooterBar = () => {
               className='custom-footer na-cb6feafeb3990c78 text-sm !text-semi-color-text-1'
               dangerouslySetInnerHTML={{ __html: footer }}
             ></div>
-            <div className='text-sm flex-shrink-0'>
+            {/* <div className='text-sm flex-shrink-0'>
               <span className='!text-semi-color-text-1'>
                 {t('设计与开发由')}{' '}
               </span>
@@ -239,7 +240,8 @@ const FooterBar = () => {
               >
                 New API
               </a>
-            </div>
+            </div> */}
+               <div class="flex flex-wrap items-center gap-4 text-sm"><a href="/privacy-policy" class="!text-semi-color-text-1 hover:!text-semi-color-primary transition-colors">隐私政策</a><span class="!text-semi-color-text-2">/</span><a href="/user-agreement" class="!text-semi-color-text-1 hover:!text-semi-color-primary transition-colors">服务条款</a><span class="!text-semi-color-text-2">/</span><a href="mailto:ai@zhimao.ai" class="!text-semi-color-text-1 hover:!text-semi-color-primary transition-colors">联系我们</a></div>
           </div>
         </footer>
       ) : (
